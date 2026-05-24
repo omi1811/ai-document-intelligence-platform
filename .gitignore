@@ -1,0 +1,11 @@
+.env
+alembic.ini 
+migrations/versions/*.py
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+alembic/
