@@ -14,7 +14,7 @@ class UserResponse(BaseModel): #client output/ client gets this response
     created_at: datetime
 
     class Config:
-        form_attributes = True
+        from_attributes = True
 
 class UserLogin(BaseModel): #client input for login OR Requirements for Login
     email: EmailStr

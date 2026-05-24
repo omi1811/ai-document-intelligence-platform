@@ -6,6 +6,7 @@ class Settings(BaseSettings):
 
     # Application
     PROJECT_NAME: str = "AI Document Intelligence Platform"
+    API_V1_STR: str = "/api/v1"
     
     # CORS - Pydantic auto-parses JSON strings from env vars for List[str]
     ALLOWED_ORIGINS: List[str] = ["http://localhost:3000", "http://localhost:8501"]
